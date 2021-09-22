@@ -1,0 +1,10 @@
+name: Run-Template
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 1440
+    steps:
+    - name: Installing Prerequisites...
+      run: <COMMAND>
